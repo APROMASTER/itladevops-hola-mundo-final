@@ -1,4 +1,5 @@
 using Microsoft.Edge.SeleniumTools;
+using OpenQA.Selenium.Chrome;
 
 namespace itladevops_hola_mundo_final;
 public class HelloWorldTest
@@ -13,9 +14,9 @@ public class HelloWorldTest
     {
         bool result = true;
 
-        var options = new EdgeOptions();
-        options.UseChromium = true;
-        var driver = new EdgeDriver(options);
+        //var options = new EdgeOptions();
+        //options.UseChromium = true;
+        var driver = new ChromeDriver();
 
         driver.Navigate().GoToUrl($"{Directory.GetCurrentDirectory()}../../../../page/index.html");
         var elementoHolaMundo = driver.FindElement(OpenQA.Selenium.By.XPath("/html/body/h1"));
