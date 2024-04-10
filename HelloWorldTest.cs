@@ -10,7 +10,7 @@ public class HelloWorldTest
     }
 
     [Test(ExpectedResult = true)]
-    public bool Test1()
+    public bool HelloWorldExists()
     {
         bool result = true;
 
