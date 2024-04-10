@@ -1,0 +1,26 @@
+name: Run tests
+
+on:
+  push:
+    branches:
+      - '*'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Restaurar dependencias
+        run: dotnet restore
+
+      - name: Compilar y ejecutar pruebas
+        run: dotnet test
+
+      - name: Desplegar a GitHub Pages si las pruebas son exitosas
+        if: success()
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          publish_dir: ./page/
