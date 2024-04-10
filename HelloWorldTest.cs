@@ -14,9 +14,9 @@ public class HelloWorldTest
     {
         bool result = true;
 
-        //var options = new EdgeOptions();
-        //options.UseChromium = true;
-        var driver = new ChromeDriver();
+        var options = new ChromeOptions();
+        options.AddArguments("--allowed-ips", "127.0.0.1");
+        var driver = new ChromeDriver(options);
 
         driver.Navigate().GoToUrl($"{Directory.GetCurrentDirectory()}../../../../page/index.html");
         var elementoHolaMundo = driver.FindElement(OpenQA.Selenium.By.XPath("/html/body/h1"));
