@@ -13,7 +13,7 @@ public class HelloWorldTest
     {
         var document = new HtmlDocument();
         document.LoadHtml(File.ReadAllText($"{Directory.GetCurrentDirectory()}../../../../page/index.html"));
-
+        //Change for reload
         var h1 = document.DocumentNode.SelectSingleNode("/html/body/h1");
 
         if (h1 == null) return false;
