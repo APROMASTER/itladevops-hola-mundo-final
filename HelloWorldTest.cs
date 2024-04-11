@@ -12,7 +12,7 @@ public class HelloWorldTest
     public bool HelloWorldExists()
     {
         var document = new HtmlDocument();
-        document.LoadHtml(File.ReadAllText($"{Directory.GetCurrentDirectory()}..\\..\\..\\..\\page\\index.html"));
+        document.LoadHtml(File.ReadAllText($"{Directory.GetCurrentDirectory()}../../../../page/index.html"));
 
         var h1 = document.DocumentNode.SelectSingleNode("/html/body/h1");
 
