@@ -12,12 +12,6 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
-      
-      - name: Configurar Chrome
-        uses: actions/setup-chrome@v1
-
-      - name: Instalar ChromeDriver
-        uses: selenium/webdriver-manager@v1
 
       - name: Restaurar dependencias
         run: dotnet restore

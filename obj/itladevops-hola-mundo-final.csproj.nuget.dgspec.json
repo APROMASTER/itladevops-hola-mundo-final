@@ -39,6 +39,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AngleSharp": {
+              "target": "Package",
+              "version": "[1.1.2, )"
+            },
+            "HtmlAgilityPack": {
+              "target": "Package",
+              "version": "[1.11.60, )"
+            },
             "Microsoft.Edge.SeleniumTools": {
               "target": "Package",
               "version": "[3.141.3, )"

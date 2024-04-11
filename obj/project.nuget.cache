@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "X5zbJlNeh+W6XK+qfygDrXL+UTP3C1UrNrZAJsSbxFyLzUrDQqZWQV9OxBz422tGlmVPtjIqahtBar2R+kvkyw==",
+  "dgSpecHash": "IOJp7TvU45BekG+cC1ZaDLuDgdfbZKt7Gnl+0EAacmvU0X3dQW8LJ0QqwGLad84rY9cxWYFAGqVo+TiJAacC2g==",
   "success": true,
   "projectFilePath": "D:\\@ITLA\\7mo Cuatrimestre\\Electiva II - DevOps\\itladevops-hola-mundo-final\\itladevops-hola-mundo-final.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ariel\\.nuget\\packages\\anglesharp\\1.1.2\\anglesharp.1.1.2.nupkg.sha512",
     "C:\\Users\\ariel\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
+    "C:\\Users\\ariel\\.nuget\\packages\\htmlagilitypack\\1.11.60\\htmlagilitypack.1.11.60.nupkg.sha512",
     "C:\\Users\\ariel\\.nuget\\packages\\microsoft.codecoverage\\17.6.0\\microsoft.codecoverage.17.6.0.nupkg.sha512",
     "C:\\Users\\ariel\\.nuget\\packages\\microsoft.edge.seleniumtools\\3.141.3\\microsoft.edge.seleniumtools.3.141.3.nupkg.sha512",
     "C:\\Users\\ariel\\.nuget\\packages\\microsoft.net.test.sdk\\17.6.0\\microsoft.net.test.sdk.17.6.0.nupkg.sha512",
@@ -18,7 +20,8 @@
     "C:\\Users\\ariel\\.nuget\\packages\\nunit.analyzers\\3.6.1\\nunit.analyzers.3.6.1.nupkg.sha512",
     "C:\\Users\\ariel\\.nuget\\packages\\nunit3testadapter\\4.2.1\\nunit3testadapter.4.2.1.nupkg.sha512",
     "C:\\Users\\ariel\\.nuget\\packages\\selenium.webdriver\\3.141.0\\selenium.webdriver.3.141.0.nupkg.sha512",
-    "C:\\Users\\ariel\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512"
+    "C:\\Users\\ariel\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512",
+    "C:\\Users\\ariel\\.nuget\\packages\\system.text.encoding.codepages\\8.0.0\\system.text.encoding.codepages.8.0.0.nupkg.sha512"
   ],
   "logs": []
 }

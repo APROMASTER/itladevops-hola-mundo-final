@@ -1,5 +1,4 @@
-using Microsoft.Edge.SeleniumTools;
-using OpenQA.Selenium.Chrome;
+using HtmlAgilityPack;
 
 namespace itladevops_hola_mundo_final;
 public class HelloWorldTest
@@ -12,22 +11,13 @@ public class HelloWorldTest
     [Test(ExpectedResult = true)]
     public bool HelloWorldExists()
     {
-        bool result = true;
+        var document = new HtmlDocument();
+        document.LoadHtml(File.ReadAllText($"{Directory.GetCurrentDirectory()}..\\..\\..\\..\\page\\index.html"));
 
-        var options = new ChromeOptions();
-        options.AddArguments("--allowed-ips", "127.0.0.1");
-        var driver = new ChromeDriver(options);
+        var h1 = document.DocumentNode.SelectSingleNode("/html/body/h1");
 
-        driver.Navigate().GoToUrl($"{Directory.GetCurrentDirectory()}../../../../page/index.html");
-        var elementoHolaMundo = driver.FindElement(OpenQA.Selenium.By.XPath("/html/body/h1"));
-
-        if (elementoHolaMundo != null) 
-        {
-            if (elementoHolaMundo.Text != "Hola mundo") result = false;
-        }
-        else result = false;
-
-        driver.Close();
-        return result;
+        if (h1 == null) return false;
+        if (h1.InnerText != "Hola mundo") return false;
+        return true;
     }
 }

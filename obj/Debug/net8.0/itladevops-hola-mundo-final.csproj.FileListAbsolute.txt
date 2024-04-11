@@ -100,3 +100,5 @@ D:\@ITLA\7mo Cuatrimestre\Electiva II - DevOps\itladevops-hola-mundo-final\obj\D
 D:\@ITLA\7mo Cuatrimestre\Electiva II - DevOps\itladevops-hola-mundo-final\obj\Debug\net8.0\itladevops-hola-mundo-final.pdb
 D:\@ITLA\7mo Cuatrimestre\Electiva II - DevOps\itladevops-hola-mundo-final\obj\Debug\net8.0\itladevops-hola-mundo-final.genruntimeconfig.cache
 D:\@ITLA\7mo Cuatrimestre\Electiva II - DevOps\itladevops-hola-mundo-final\obj\Debug\net8.0\ref\itladevops-hola-mundo-final.dll
+D:\@ITLA\7mo Cuatrimestre\Electiva II - DevOps\itladevops-hola-mundo-final\bin\Debug\net8.0\AngleSharp.dll
+D:\@ITLA\7mo Cuatrimestre\Electiva II - DevOps\itladevops-hola-mundo-final\bin\Debug\net8.0\HtmlAgilityPack.dll
